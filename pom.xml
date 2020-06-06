@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+		 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+	<!-- parent pom -->
+    <groupId>net.syscon.s4</groupId>
+    <artifactId>maple</artifactId>
+    <packaging>pom</packaging>
+	<version>1.0</version>
+
+	<!-- sub modules -->
+	<modules>
+
+        
+
+        <module>Elite2Business</module>
+        <module>Elite2Common</module>
+		<module>Elite2DAO</module>
+        <module>Elite2Web</module>
+    </modules>
+	
+</project>
